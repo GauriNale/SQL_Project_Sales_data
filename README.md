@@ -36,13 +36,13 @@ The dataset contains sample sales data with the following columns:
   
 ##  SQL Queries Used
 
-##  1. View all data
+ 1. View all data
 
 ```sql
 SELECT * FROM SalesData;
 
 
-## 2. Calculate Total Sales
+ 2. Calculate Total Sales
 sql
 
 SELECT SUM(Quantity * Price) AS TotalSales FROM SalesData;
